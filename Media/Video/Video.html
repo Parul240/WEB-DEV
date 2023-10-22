@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Video</title>
+	
+</head>
+<body>
+	<!-- adding video -->
+
+	<video src="videoFile.mp4" width="250" controls>
+	</Video>
+	<br>
+	<br>
+    <video src="videoFile.mp4" controls autoplay muted loop>
+
+    </video>
+
+	<br>
+	<br>
+
+    <!-- another method -->
+    
+    <video controls width="300">
+		<source src="videoFile.mp4" type="video/mp4">
+		<source src="path_to_video_file.mp4" type="video/mp4">
+        <source src="path_to_video_file.webm" type="video/webm">
+        Your browser does not support the video tag.
+	 	
+    </video> 
+
+    <br>
+    <br>
+
+    <!-- another way -->
+
+    <video controls width="250">
+    <source src="videoFile.webm" type="video/webm">
+
+    <source src="videoFile.mp4" type="video/mp4">
+
+    Download the
+    <a href="videoFile.webm">WEBM</a>
+    or
+    <a href="videoFile.mp4">MP4</a>
+    video.
+    </video>
+
+
+</body>
+</html>
